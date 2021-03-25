@@ -1,0 +1,89 @@
+.product-bundle h2 {
+    text-align: center;
+}
+
+.product-bundle del .amount {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.product-bundle ins .amount {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f44336;
+}
+
+.product-bundle ins,
+.product-bundle del {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.product-bundle ins {
+    text-decoration: none;
+}
+
+.single-product.woocommerce .product-bundle h3.product-bundle__product-title {
+    margin: 10px 0;
+}
+
+.product-bundle .product-bundle__product-title a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4f9eff;
+    text-decoration: none;
+}
+
+.sitetext .product-bundle .product-bundle__product-price {
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-bundle .product-bundle__purchase:before {
+    font-weight: 600;
+}
+
+.product-bundle .product-bundle__product:not(:first-child):before {
+    font-weight: 600;
+}
+
+.product-bundle__discount {
+    font-weight: 600;
+}
+
+@media (min-width: 1020px) {
+    .product-bundle {
+        padding: 1px 0;
+    }
+
+    .product-bundle .product-bundle__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-bundle .product-bundle__products {
+        width: 50%;
+    }
+
+    .product-bundle .product-bundle__product {
+        width: 50%;
+        margin: 0;
+    }
+
+    .product-bundle .product-bundle__purchase {
+        padding-left: 45px;
+    }
+
+    .product-bundle .product-bundle__purchase:before {
+        left: 0;
+    }
+
+    .product-bundle .product-bundle__product:not(:first-child):before {
+        margin: 0;
+        left: -6px;
+    }
+}

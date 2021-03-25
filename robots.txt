@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /cgi-bin             # Стандартная папка на хостинге.
+Disallow: /wp-admin/           # Закрываем админку.
+Disallow: /?                   # Все параметры запроса на главной.
+Disallow: *?s=                 # Поиск.
+Disallow: *&s=                 # Поиск.
+Disallow: /search              # Поиск.
+Disallow: /author/             # Архив автора.
+Disallow: */embed              # Все встраивания.
+Disallow: */page/              # Все виды пагинации.
+Disallow: */xmlrpc.php         # Файл WordPress API
+Disallow: *utm*=               # Ссылки с utm-метками
+Disallow: *openstat=           # Ссылки с метками openstat
+# Одина или несколько ссылок на карту сайта (файл Sitemap). Это независимая
+# директива и дублировать её для каждого User-agent не нужно. Так например
+# Google XML Sitemap создает 2 карты сайта:
+Sitemap: https://agro-zahyst.com.ua/sitemap.xml
+# Версия кода: 2.0
+# Не забудьте поменять `example.com` на ваш сайт.

@@ -1,0 +1,18 @@
+2021-03-19T21:54:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php:90
+Stack trace:
+#0 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(2121)
+#3 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /home/ay406719/agro-zahyst.com.ua/www/wp-includes/shortcodes.php(343): WC_Shortc у /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php доступно 90
+
+2021-03-19T22:10:39+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php:90
+Stack trace:
+#0 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(2121)
+#3 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /home/ay406719/agro-zahyst.com.ua/www/wp-includes/shortcodes.php(343): WC_Shortc у /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php доступно 90
+

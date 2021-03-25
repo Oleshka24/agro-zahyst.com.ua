@@ -1,0 +1,122 @@
+2021-03-20 00:54:58 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function get_id() on boolean in /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php:90
+Stack trace:
+#0 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(2121)
+#3 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /home/ay406719/agro-zahyst.com.ua/www/wp-includes/shortcodes.php(343): WC_Shortc in file /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php on line 90
+2021-03-20 01:10:39 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function get_id() on boolean in /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php:90
+Stack trace:
+#0 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(2121)
+#3 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/ay406719/agro-zahyst.com.ua/www/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 /home/ay406719/agro-zahyst.com.ua/www/wp-includes/shortcodes.php(343): WC_Shortc in file /home/ay406719/agro-zahyst.com.ua/www/wp-content/themes/agro/woocommerce/checkout/thankyou.php on line 90
+2021-03-24 19:41:55 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W in file D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-24 19:42:08 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W in file D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-24 19:43:06 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W in file D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-24 19:57:32 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W in file D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-25 15:48:09 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\W in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-25 15:50:40 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function where() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:72
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): home_page_fields('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\Work\OSPanel\ in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 72
+2021-03-25 16:29:30 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\W in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-25 16:29:52 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\W in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-25 16:30:06 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\W in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-25 16:30:21 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\W in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67
+2021-03-25 16:30:52 - Error Message: PHP Fatal error: Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 D:\W in file D:\Work\OSPanel\domains\agro-zahyst.com.ua\wp-content\themes\agro\functions.php on line 67

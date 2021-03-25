@@ -1,0 +1,263 @@
+#fnd-form {
+    width: 640px;
+    max-width: calc(100% - 30px);
+    margin: 15px;
+    padding: 40px 70px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #4f9eff;
+    text-align: center;
+    position: relative;
+}
+
+#fnd-form .fnd-form__header {
+    width: 100%;
+}
+
+#fnd-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fnd-form h2 {
+    margin: 0 0 20px;
+    color: #4f9eff;
+}
+
+#fnd-form p {
+    margin: 20px auto;
+    width: 410px;
+    max-width: 100%;
+}
+
+#fnd-form br {
+    display: none;
+}
+
+.fnd-form__main {
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+}
+
+.fnd-form__main span {
+    display: contents;
+}
+
+.fnd-form__main span.full-name,
+.fnd-form__main span.phone,
+.fnd-form__main span.competitor-url {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+}
+
+.fnd-form__main span.wpcf7-not-valid-tip {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fnd-form__input {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #555555;
+    border: 1px solid #4F9EFF;
+    border-radius: 3px;
+}
+
+.fnd-form__main span.full-name,
+.fnd-form__main span.phone {
+    width: calc(50% - 15px / 2);
+    margin-bottom: 15px;
+}
+
+.fnd-form__main span.full-name {
+    margin-right: 15px;
+}
+
+.fnd-form__main span.competitor-url {
+    width: 100%;
+}
+
+.fnd-form__main span.our-url {
+    display: none;
+}
+
+.fnd-form__submit {
+    height: 43px;
+    padding: 0 30px;
+    margin: 15px auto 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #4F9EFF;
+    border: 1px solid #4F9EFF;
+    border-radius: 3px;
+
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+#fnd-form .fancybox-close-small {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.3 10.0006L19.4872 3.81336C20.1709 3.12973 20.1709 2.0214 19.4872 1.33884L18.6624 0.514003C17.9786 -0.169839 16.8702 -0.169839 16.1877 0.514003L10.0006 6.70105L3.81336 0.512721C3.12973 -0.170907 2.0214 -0.170907 1.33884 0.512721L0.512721 1.33756C-0.170907 2.0214 -0.170907 3.12973 0.512721 3.81229L6.70105 10.0006L0.514003 16.1877C-0.169839 16.8715 -0.169839 17.9798 0.514003 18.6624L1.33884 19.4872C2.02247 20.1709 3.1308 20.1709 3.81336 19.4872L10.0006 13.3L16.1877 19.4872C16.8715 20.1709 17.9798 20.1709 18.6624 19.4872L19.4872 18.6624C20.1709 17.9786 20.1709 16.8702 19.4872 16.1877L13.3 10.0006Z' fill='%23555555'/%3E%3C/svg%3E%0A");
+}
+
+@media (min-width: 993px) {
+    .fnd-form__submit:hover {
+        border: 1px solid #4F9EFF;
+        background-color: #fff;
+        color: #4F9EFF;
+    }
+
+    #fnd-form .fancybox-close-small:hover {
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.3 10.0006L19.4872 3.81336C20.1709 3.12973 20.1709 2.0214 19.4872 1.33884L18.6624 0.514003C17.9786 -0.169839 16.8702 -0.169839 16.1877 0.514003L10.0006 6.70105L3.81336 0.512721C3.12973 -0.170907 2.0214 -0.170907 1.33884 0.512721L0.512721 1.33756C-0.170907 2.0214 -0.170907 3.12973 0.512721 3.81229L6.70105 10.0006L0.514003 16.1877C-0.169839 16.8715 -0.169839 17.9798 0.514003 18.6624L1.33884 19.4872C2.02247 20.1709 3.1308 20.1709 3.81336 19.4872L10.0006 13.3L16.1877 19.4872C16.8715 20.1709 17.9798 20.1709 18.6624 19.4872L19.4872 18.6624C20.1709 17.9786 20.1709 16.8702 19.4872 16.1877L13.3 10.0006Z' fill='%234F9EFF'/%3E%3C/svg%3E%0A");
+    }
+}
+
+.single-product .summary  .fnd-link {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 26px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.products  .fnd-link {
+    font-size: 13px;
+    line-height: 18px;
+    padding-left: 17px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.products  .fnd-link,
+.single-product .summary  .fnd-link {
+    font-style: normal;
+    position: relative;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #555555;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.single-product .summary   .fnd-link::before {
+    width: 18px;
+    height: 18px;
+}
+
+.products  .fnd-link::before {
+    width: 13px;
+    height: 13px;
+}
+
+.products  .fnd-link::before,
+.single-product .summary   .fnd-link::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    content: "";
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.1875 0H2.8125C1.25999 0.00192261 0.00192261 1.25999 0 2.8125V15.1875C0.00192261 16.74 1.25999 17.9981 2.8125 18H15.1875C16.74 17.9981 17.9981 16.74 18 15.1875V2.8125C17.9981 1.25999 16.74 0.00192261 15.1875 0ZM16.875 15.1875C16.875 16.1194 16.1194 16.875 15.1875 16.875H2.8125C1.88058 16.875 1.125 16.1194 1.125 15.1875V2.8125C1.125 1.88058 1.88058 1.125 2.8125 1.125H15.1875C16.1194 1.125 16.875 1.88058 16.875 2.8125V15.1875Z' fill='%23555555'/%3E%3Cpath d='M9 3.375C7.13686 3.37692 5.62679 4.88686 5.625 6.75H6.75C6.75 5.50745 7.75731 4.5 9 4.5C10.2426 4.49876 11.251 5.50511 11.2522 6.7478C11.2532 7.74275 10.6006 8.62014 9.64737 8.90551C8.9301 9.11425 8.43695 9.77179 8.4375 10.5187V12.375H9.5625V10.5187C9.5647 10.2693 9.73087 10.0511 9.97078 9.98272C11.7562 9.44714 12.7694 7.56573 12.2338 5.78032C11.8055 4.35223 10.4908 3.37445 9 3.375Z' fill='%23555555'/%3E%3Cpath d='M8.4375 13.5H9.5625V14.625H8.4375V13.5Z' fill='%23555555'/%3E%3C/svg%3E%0A");
+}
+
+.products  .price .price {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .single-product .summary  .fnd-link {
+        display: block;
+        margin: 0;
+    }
+
+    .single-product .summary  .price {
+        text-align: center;
+    }
+
+    .single-product .summary  .fnd-link {
+        margin: 15px auto 0;
+    }
+    
+    #fnd-form {
+        padding: 40px 40px;
+    }
+
+    #fnd-form h2 {
+        margin: 0 0 20px;
+        font-size: 20px;
+    }
+
+    #fnd-form p {
+        margin: 20px auto;
+    }
+
+    .fnd-form__main span.full-name, .fnd-form__main span.phone {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .fnd-form__submit {
+        width: 100%;
+        margin: 15px auto 0;
+    }
+}
+
+#fnd-form .wpcf7-response-output {
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto 15px;
+    order: 2;
+    text-align: center;
+}
+
+@media (max-width: 1250px) and (min-width: 769px) {
+    .single-product .summary  .fnd-link {
+        margin: 10px 0;
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    #fnd-form {
+        padding: 25px 25px;
+    }
+}
+
+#fnd-form .fnd-form__main + p {
+    margin: 0;
+}

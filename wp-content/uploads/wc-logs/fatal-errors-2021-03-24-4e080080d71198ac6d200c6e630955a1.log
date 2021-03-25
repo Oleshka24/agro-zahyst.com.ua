@@ -1,0 +1,40 @@
+2021-03-24T16:41:55+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W у D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php доступно 67
+
+2021-03-24T16:42:07+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W у D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php доступно 67
+
+2021-03-24T16:43:06+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W у D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php доступно 67
+
+2021-03-24T16:57:32+00:00 CRITICAL Uncaught Error: Call to a member function add_fields() on null in D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php:67
+Stack trace:
+#0 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): agro_attach_theme_options('')
+#1 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\assets\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(81): do_action('carbon_fields_r...')
+#4 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(287): Carbon_Fields\Loader\Loader->trigger_fields_register('')
+#5 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-includes\plugin.php(484): W в D:\Work\OSPanel\domains\dev.agro-zahyst.com.ua\wp-content\themes\agro\functions.php на строке 67
+

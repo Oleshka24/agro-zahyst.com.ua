@@ -1,0 +1,23 @@
+.woocommerce ul.products li.product .button.outofstock_button {
+    color: #fff;
+    background-color: #4f9eff;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.woocommerce ul.products li.product .button.outofstock_button:hover {
+    border: 1px solid #4f9eff;
+    color: #4f9eff;
+    background-color: #fff;
+}
+
+.woocommerce ul.products li.product .button.outofstock_button .button_more_ico {
+    width: auto;
+    height: 24px;
+    fill: #fff;
+    margin-right: 10px;
+}
+
+.woocommerce ul.products li.product .button.outofstock_button:hover .button_more_ico {
+    fill: #4f9eff;
+}

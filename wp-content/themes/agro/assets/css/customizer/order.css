@@ -1,0 +1,85 @@
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+    margin: 15px 0;
+    font-size: 25px;
+    color: #4f9eff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    max-width: 100%;
+    margin: 15px auto 50px;
+    padding: 15px;
+    border: 1px solid #4f9eff;
+    border-radius: 10px;
+}
+
+.woocommerce ul.order_details::after, .woocommerce ul.order_details::before {
+    display:none;
+}
+
+.checkout_coupon--active {
+    animation: showAni 30s;
+    position: static !important;
+    zoom: 1 !important;
+    display: flex !important;
+    min-height: max-content !important;
+    padding: 20px !important;
+    margin: 2em 0 !important;
+}
+
+@keyframes showAni {
+    from {
+        position: static !important;
+        zoom: 1 !important;
+        display: flex !important;
+        min-height: max-content !important;
+        padding: 20px !important;
+        margin: 2em 0 !important;
+    }
+    to {
+        position: static !important;
+        zoom: 1 !important;
+        display: flex !important;
+        min-height: max-content !important;
+        padding: 20px !important;
+        margin: 2em 0 !important;
+    }
+}
+
+@media (min-width: 1010px) {
+    #order_comments {
+        min-height: 275px;
+    }
+
+    #order_comments_field,
+    .woocommerce-additional-fields__field-wrapper,
+    .woocommerce-additional-fields,
+    .woocommerce-billing-fields {
+        margin: 0!important;
+    }
+}
+
+@media (max-width: 1010px) {
+    #customer_details .woocommerce-billing-fields,
+    #customer_details .woocommerce-additional-fields {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .woocommerce ul.order_details li {
+        margin-right: 15px;
+        min-width: calc((100% - 15px * 3) / 3);
+    }
+}
+
+@media (max-width: 768px) {
+    .woocommerce ul.order_details li {
+        margin-right: 15px;
+        width: calc(50% - 15px);
+    }
+}

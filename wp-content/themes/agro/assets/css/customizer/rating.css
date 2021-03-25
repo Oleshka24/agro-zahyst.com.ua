@@ -1,0 +1,105 @@
+
+.product_item .star-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+}
+.product_item .star-rating::before {
+    content: "\73\73\73\73\73";
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.product_item .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.product_item .star-rating span::before {
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.product_item .woocommerce-product-rating {
+    line-height: 2;
+    display: block;
+}
+.product_item .woocommerce-product-rating::after,
+.product_item .woocommerce-product-rating::before {
+    content: " ";
+    display: table;
+}
+.product_item .woocommerce-product-rating::after {
+    clear: both;
+}
+.product_item .woocommerce-product-rating .star-rating {
+    margin: 0.5em 4px 0 0;
+    float: left;
+}
+.product_item .products .star-rating {
+    display: block;
+    margin: 0 0 0.5em;
+    float: none;
+}
+.product_item .hreview-aggregate .star-rating {
+    margin: 10px 0 0;
+}
+
+
+.product_item .woocommerce-product-rating {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 10px;
+} 
+
+.product_item .woocommerce-product-rating .star-rating {
+    font-size: 14px;
+    margin: 0;
+}
+
+.products .product_item > .price,
+.products .product_item > .woocommerce-product-rating,
+.products .product_item > .product_title {
+    margin-bottom: 0;
+}
+
+.products .product_item > .woocommerce-product-rating + .price,
+.search .products .product_item > .price {
+    margin-top: 10px;
+}
+
+@media (max-width: 1140px) {
+    .product_item .woocommerce-product-rating {
+        flex-direction: column;
+    }
+
+    .product_item .woocommerce-product-rating .star-rating {
+        margin: 10px 0 0;
+    }
+}
+
+.home .product_item .woocommerce-product-rating .star-rating {
+    margin: 0;
+}
+
+.search .prod-izm {
+    margin-bottom: 20px;
+}
+
+.search .products .product_item {
+    text-align: center;
+}

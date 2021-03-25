@@ -1,0 +1,130 @@
+/*
+url('../../images/cat_title_bg/zasobi-zahistu-roslin.jpg')
+url('../../images/cat_title_bg/dobriva-ta-preparati.jpg')
+url('../../images/cat_title_bg/posivnij-material.jpg')
+*/
+
+.archive .breadcrumbs_wrapper {
+    padding: 70px 0;
+
+    position: relative;
+    z-index: 0;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  Добрива та препарати  */
+
+/* ua */
+.archive.term-dobriva-ta-preparati .breadcrumbs_wrapper,
+
+.archive.term-dopomizhni-preparati .breadcrumbs_wrapper,
+.archive.term-prilipachi .breadcrumbs_wrapper,
+
+.archive.term-mikrodobriva .breadcrumbs_wrapper,
+
+.archive.term-mineralni-dobriva .breadcrumbs_wrapper,
+
+/* ru */
+.archive.term-udobrenija-i-preparaty .breadcrumbs_wrapper,
+
+.archive.term-vspomogatelnye-preparaty .breadcrumbs_wrapper,
+.archive.term-prilipateli .breadcrumbs_wrapper,
+
+.archive.term-mikroudobrenija .breadcrumbs_wrapper,
+
+.archive.term-mineralnye-udobrenija .breadcrumbs_wrapper {
+    background-image: url('../../images/cat_title_bg/dobriva-ta-preparati.jpg');
+    background-position: center right;
+}
+
+/*  Засоби захисту рослин  */
+
+/* ua */
+.archive.term-zasobi-zahistu-roslin .breadcrumbs_wrapper,
+
+.archive.term-gerbicidi .breadcrumbs_wrapper,
+
+.archive.term-insekticid .breadcrumbs_wrapper,
+
+.archive.term-protrujniki .breadcrumbs_wrapper,
+
+.archive.term-fungicidi .breadcrumbs_wrapper,
+
+/* ru */
+.archive.term-sredstva-zashhity-rastenij .breadcrumbs_wrapper,
+
+.archive.term-gerbicidy .breadcrumbs_wrapper,
+
+.archive.term-insekticid-sredstva-zashhity-rastenij .breadcrumbs_wrapper,
+
+.archive.term-protraviteli .breadcrumbs_wrapper,
+
+.archive.term-fungicidy .breadcrumbs_wrapper {
+    background-image: url('../../images/cat_title_bg/zasobi-zahistu-roslin.jpg');
+    background-position: center center;
+}
+
+/*  Посівний матеріал  */
+
+/* ua */
+.archive.term-posivnij-material .breadcrumbs_wrapper,
+
+.archive.term-nasinnja-kukurudzi .breadcrumbs_wrapper,
+.archive.term-nasinnja-pshenici .breadcrumbs_wrapper,
+.archive.term-ozima-pshenicja .breadcrumbs_wrapper,
+.archive.term-jara-pshenicja .breadcrumbs_wrapper,
+
+.archive.term-nasinnja-ripaku .breadcrumbs_wrapper,
+.archive.term-nasinnja-ozimogo-ripaku .breadcrumbs_wrapper,
+
+.archive.term-nasinnja-sonjashnika .breadcrumbs_wrapper,
+
+.archive.term-nasinnja-jachmenju .breadcrumbs_wrapper,
+.archive.term-ozimij-jachmin .breadcrumbs_wrapper,
+.archive.term-jarij-jachmin .breadcrumbs_wrapper,
+
+/* ru */
+.archive.term-posevnoj-material .breadcrumbs_wrapper,
+
+.archive.term-semena-kukuruzy .breadcrumbs_wrapper,
+.archive.term-semena-pshenicy .breadcrumbs_wrapper,
+.archive.term-ozimaja-pshenica .breadcrumbs_wrapper,
+.archive.term-jarovaja-pshenica .breadcrumbs_wrapper,
+
+.archive.term-semena-rapsa .breadcrumbs_wrapper,
+.archive.term-semena-ozimogo-rapsa .breadcrumbs_wrapper,
+
+.archive.term-semena-podsolnechnika .breadcrumbs_wrapper,
+
+.archive.term-semena-jachmenja .breadcrumbs_wrapper,
+.archive.term-ozimyj-jachmen .breadcrumbs_wrapper,
+.archive.term-jarovoj-jachmen .breadcrumbs_wrapper {
+    background-image: url('../../images/cat_title_bg/posivnij-material.jpg');
+    background-position: center center;
+}
+
+.archive.post-type-archive .breadcrumbs_wrapper {
+    background-image: url('../../images/cat_title_bg/catalog.jpg');
+    background-position: center center;
+}
+
+.archive .breadcrumbs_wrapper::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    opacity: .7;
+
+    background-color: #000000;
+}
+
+.archive .breadcrumbs_wrapper * {
+    color: #ffffff;
+}

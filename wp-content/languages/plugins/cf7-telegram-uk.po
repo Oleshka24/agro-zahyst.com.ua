@@ -1,0 +1,40 @@
+# Translation of Plugins - Contact Form 7 + Telegram - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Contact Form 7 + Telegram - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-24 15:14:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Contact Form 7 + Telegram - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "Contact Form 7 + Telegram"
+msgstr "Contact Form 7 + Telegram"
+
+#. Description of the plugin
+msgid "Sends messages to Telegram-chat"
+msgstr "Відправляє повідомлення до Telegram чату"
+
+#: classes/wpcf7telegram.php:104
+msgid "Bot-settings"
+msgstr "Налаштування бота"
+
+#. Author of the plugin
+msgid "Hokku"
+msgstr "Hokku"
+
+#: classes/wpcf7telegram.php:111
+msgid "Bot Token<br/><small>You need to create your own Telegram-Bot.<br/><a target=\"_blanc\" href=\"https://core.telegram.org/bots#3-how-do-i-create-a-bot\">How to create</a></small>"
+msgstr "Токен бота<br/><small>Вам необхідно створити свій Telegram-бот.<br/><a target=\"_blanc\" href=\"https://core.telegram.org/bots#3-how-do-i-create-a-bot\">Як це зробити (англ.)</a></small>"
+
+#: classes/wpcf7telegram.php:158
+msgid "Just use the shortcode <code>[telegram]</code> in the form for activate notification through Telegram."
+msgstr "Просто використовуйте скорочений код <code>[telegram]</code> у формі для включення сповіщень у Telegram-чаті."
+
+#: classes/wpcf7telegram.php:148
+msgid "Telegram notificator settings"
+msgstr "Налаштування Telegram сповіщень "

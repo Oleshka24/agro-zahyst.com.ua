@@ -1,0 +1,248 @@
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__title {
+    display: block;
+
+    font-size: 17px;
+    text-transform: none;
+}
+
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__item {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+}
+
+.widget_premmerce_filter_filter_widget  .filter__properties-item--active .filter__checkgroup-link .filter__checkgroup-check::after {
+    content: ' \2713';
+    background-color: transparent !important;
+    position: static;
+}
+
+.widget_premmerce_filter_filter_widget  .filter__properties-item--active .filter__checkgroup-link .filter__checkgroup-check::before {
+    display: none !important;
+}
+
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__checkgroup-link .filter__checkgroup-check {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #606060;
+    border-radius: 5px;
+}
+
+.widget_premmerce_filter_filter_widget  .filter__properties-item--active .filter__checkgroup-link .filter__checkgroup-check {
+    background-color: #4f9eff;
+    border-color: #4f9eff;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget_premmerce_filter_filter_widget .filter__inner--scroll {
+    max-height: 100%;
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+    overflow-y: auto;
+    scrollbar-color: #555 #ebebeb;
+    scrollbar-width: thin;
+}
+
+.widget_premmerce_filter_filter_widget .filter__inner--scroll::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    background: #ebebeb;
+    border-radius: 3px
+}
+
+.widget_premmerce_filter_filter_widget .filter__inner--scroll::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+}
+
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__checkgroup-title,
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__checkgroup-count {
+    font-size: 16px;
+    position: static;
+}
+
+.widget_premmerce_filter_filter_widget .filter--style-premmerce .filter__checkgroup-count {
+    padding: 0 5px 0 10px;
+    margin-left: auto;
+}
+
+.filter__properties-list {
+    max-height: 120px;
+}
+
+.widget_premmerce_filter_filter_widget .filter__slider-control {
+    font-size: 16px;
+}
+
+.widget_premmerce_filter_filter_widget .pc-range-slider__control .ui-slider-range,
+.widget_premmerce_filter_filter_widget .pc-range-slider__control .ui-slider-handle {
+    background-color: #4f9eff !important;
+}
+
+.widget_premmerce_filter_filter_widget .pc-range-slider__control .ui-slider-handle {
+    width: 20px!important;
+    margin: 0 !important;
+    top: 0 !important;
+    border-radius: 100% !important;
+}
+
+.widget_premmerce_filter_filter_widget .pc-range-slider__control .ui-slider-handle:last-child {
+    transform: translateX(-12px);
+}
+
+.widget_premmerce_filter_filter_widget .pc-range-slider__control {
+    background-color: #e7e7e7;
+    border-width: 0;
+}
+
+.widget_premmerce_filter_filter_widget .filter__slider-control {
+    margin: 0;
+    padding: .618em 1em;
+
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    
+    border-radius: 10px;
+    border: 1px solid #4f9eff;
+    color: #515151;
+}
+
+.widget_premmerce_filter_filter_widget .filter__checkgroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget_premmerce_filter_filter_widget .filter__handle {
+    margin-left: 15px;
+}
+
+.widget_premmerce_filter_filter_widget .filter__icon-plus::after {
+    display:none;
+}
+
+.widget_premmerce_filter_filter_widget .filter__icon-minus::before,
+.widget_premmerce_filter_filter_widget .filter__icon-plus::before {
+    height: 100%;
+
+    background-image: url("../../images/icons/down-chevron.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.widget_premmerce_filter_filter_widget .filter__icon-minus,
+.widget_premmerce_filter_filter_widget .hidden .filter__icon-plus {
+    transform: rotateZ(-180deg);
+}
+
+.widget_premmerce_filter_filter_widget .hidden .filter__icon-minus,
+.widget_premmerce_filter_filter_widget .filter__icon-plus {
+    transform: rotateZ(0deg);
+}
+
+.widget_premmerce_filter_active_filters_widget .pc-active-filter__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pc-active-filter__list-item:not(:last-child) {
+    margin-right: 12px;
+}
+
+.widget_premmerce_filter_active_filters_widget .pc-active-filter__item-link {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+.widget_premmerce_filter_active_filters_widget .pc-active-filter__item-delete {
+    margin-right: 10px;
+}
+
+.widget_premmerce_filter_active_filters_widget .pc-active-filter__item-delete {
+    height: 18px;
+    width: 18px;
+    border-width: 0;
+
+    margin-right: 7px;
+
+    background-image: url(../../images/icons/cancel.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 100%;
+
+    font-size: 0;
+
+    transition: all .2s;
+}
+
+
+/*---------------------*/
+
+.sidebar .wpfFilterVerScroll {
+    padding: 0;
+}
+
+.sidebar .WpfWoofiltersWidget .wpfLoaderLayout {
+    z-index: 1 !important;
+}
+
+.sidebar .WpfWoofiltersWidget {
+    display: block;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 7px;
+    z-index: 0;
+}
+
+.sidebar .WpfWoofiltersWidget .wpfFilterVerScroll li label,
+.sidebar .WpfWoofiltersWidget .wpfFilterVerScroll li label .wpfDisplay,
+.sidebar .WpfWoofiltersWidget .wpfFilterVerScroll li label .wpfValue {
+    display: flex;
+}
+
+.sidebar .WpfWoofiltersWidget .wpfFilterVerScroll li label .wpfCheckbox {
+    min-width: max-content;
+}
+
+.sidebar .ui-slider.ui-widget-content:not(.iris-slider-offset),
+.sidebar .ui-slider.ui-widget-content .ui-slider-handle {
+    border-width: 0 !important;
+}
+
+.widget_premmerce_filter_filter_widget .pc-range-slider__control .ui-slider-range {
+    padding: 0 !important;
+    height: 4px;
+}
+
+.ui-slider.ui-widget-content:not(.iris-slider-offset) {
+    height: 4px;
+    position: static;
+    background-color: #e7e7e7 !important;
+}
+
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    display: block !important;
+}

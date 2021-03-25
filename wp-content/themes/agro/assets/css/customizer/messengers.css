@@ -1,0 +1,186 @@
+.header__messengers {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .header__messengers {
+        display: block;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .header__messengers .messengers__list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: #4f9eff;
+    }
+
+    .header__messengers .phones__list {
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        transition: all .3s;
+        transform-origin: top;
+        z-index: -1;
+    }
+
+    .header__messengers .phones__list--show {
+        top: 100%;
+    }
+
+    .header__messengers .phones__list .phones__item:nth-child(2) {
+        top: -45px;
+    }
+
+    .header__messengers--scroll .phones__list .phones__item:nth-child(2) {
+        top: -30px;
+    }
+
+    .header__messengers .phones__list--show .phones__item:nth-child(2) {
+        top: 0px;
+    }
+
+    .header__messengers .messengers__item {
+        width: 100%;
+        min-width: calc(100% / 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .header__messengers .phones__item {
+        position: relative;
+        bottom: 0;
+        border-top: 1px #fff solid;
+        transition: all .3s;
+    }
+
+    .header__messengers .messengers__item:not(:last-child) {
+        border-right: 1px #fff solid;
+    }
+
+    .header__messengers .item__link {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px;
+        font-size: 11px;
+        color: #fff;
+        background-color: #4f9eff;
+        text-transform: uppercase;
+        transition: all .3s;
+    }
+
+    .header__messengers .item__icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        fill: #fff;
+        transition: all .3s;
+    }
+
+    .header__messengers--scroll .item__link {
+        padding: 7.5px 10px;
+    }
+
+    .header__messengers--scroll .item__icon {
+        width: 10px;
+        height: 10px;
+        margin-left: 5px;
+    }
+
+    .header .wrap_mob {
+        top: 100%;
+    }
+
+    .header_wrap, .header_wrap.header_fixed {
+        height: 58px !important;
+    }
+}
+
+.phones.container_flex,
+.header_top > .container_flex {
+    align-items: center;
+}
+
+.messenger_icon.phone_icon {
+    height: 22px;
+    width: 22px;
+    position: static;
+}
+
+.header_top .phones .phone_number.phone_number--viber,
+.header_top .phones .phone_number.phone_number--telegram {
+    width: auto;
+    padding: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.header_top .phones .phone_number {
+    font-weight: bold;
+}
+
+.header .header_top .phones .phone_number.messengers {
+    display: inline-flex;
+    margin-right: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+@media (max-width: 1100px) and (min-width: 851px) {
+    .header_top .phones .phone_number:not(.back_call) {
+        width: calc(100% / 3 - 30px / 3);
+    }
+
+    .header_top .phones .phone_number:not(:nth-child(3n+3)) {
+        margin-right: 15px;
+    }
+
+    .container_flex.phones {
+        width: 420px;
+        justify-content: flex-start;
+    }
+
+    .main_nav.container_flex {
+        width: calc(100% - 420px);
+        justify-content: flex-end;
+    }
+
+    .header_top .phones .phone_number {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .header .wrap_mob {
+        top: 100%;
+    }
+}
+
+@media (min-width: 451px) {
+    .header_wrap {
+        height: 17px;
+    }
+}
+
+@media (min-width: 851px) {
+    .header_wrap {
+        height: 130px;
+    }
+}
+
+@media (min-width: 1101px) {
+    .header_wrap {
+        height: 108px;
+    }
+}

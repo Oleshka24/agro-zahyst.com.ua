@@ -1,0 +1,52 @@
+
+.scroll_to_top {
+    width: 65px;
+    height: 65px;
+
+    position: fixed;
+    right: 30px;
+    bottom: 60px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+
+    /*background-color: transparent;*/
+    background-color: #fff;
+    border: 3px solid #4f9eff;
+
+    transition: all .3s;
+
+    cursor: pointer;
+}
+
+.scroll_to_top--show {
+    opacity: 1;
+    pointer-events: inherit;
+}
+
+.scroll_to_top--hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.scroll_to_top__title {
+    font-size: 0.1px;
+    color: transparent;
+}
+
+.scroll_to_top__ico {
+    position: absolute;
+    width: 75%;
+    transform: translateY(5px);
+    fill: #4f9eff;
+    transition: all .3s;
+}
+
+.scroll_to_top__ico-row {
+    transform: translateY(-100px);
+    transition: all .3s;
+}

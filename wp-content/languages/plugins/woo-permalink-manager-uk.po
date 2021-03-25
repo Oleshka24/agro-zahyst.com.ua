@@ -1,0 +1,134 @@
+# Translation of Plugins - Premmerce Permalink Manager for WooCommerce - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Premmerce Permalink Manager for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-31 16:30:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Premmerce Permalink Manager for WooCommerce - Stable (latest release)\n"
+
+#: views/admin/banner.php:32
+msgid "Get it now"
+msgstr "Отримати зараз"
+
+#: views/admin/banner.php:21
+msgid "Get clean URLs and additional Pro SEO settings for your Filter pages with Premmerce WooCommerce Filter Premium for only $69!"
+msgstr "Отримайте чисті URL-адреси та додаткові параметри Pro SEO для сторінок вашого фільтра з Premmerce WooCommerce Filter Premium лише за $69!"
+
+#: views/admin/banner.php:15 views/admin/banner.php:18
+msgid "Premmerce WooCommerce Product Filter Premium"
+msgstr "Premmerce WooCommerce Product Filter Premium"
+
+#: views/admin/section/product.php:53
+msgid "Full product path"
+msgstr "Повний шлях товару"
+
+#: views/admin/section/product.php:41
+msgid "Product slug with primary category"
+msgstr "Ярлик товару з основною категорією"
+
+#: views/admin/section/product.php:29
+msgid "Product slug"
+msgstr "Ярлик товару"
+
+#: views/admin/section/category.php:38
+msgid "Full category path"
+msgstr "Повний шлях категорії"
+
+#: views/admin/section/category.php:26
+msgid "Category slug"
+msgstr "Ярлик категорії"
+
+#: views/admin/section/product.php:18 views/admin/section/category.php:17
+msgid "Use WooCommerce settings"
+msgstr "Використовувати налаштування WooCommerce"
+
+#: views/admin/section/additional.php:99
+msgid "Create 301 redirect from duplicated pages"
+msgstr "Створити 301 перенаправлення з продубльованої сторінки"
+
+#: views/admin/section/additional.php:91
+msgid "Create redirects"
+msgstr "Створити перенаправлення"
+
+#: views/admin/section/additional.php:75
+msgid "Add canonical meta tag to duplicated pages"
+msgstr "Додати мета тег canonical на продубльованій сторінці"
+
+#: views/admin/section/additional.php:71
+msgid "Add canonicals"
+msgstr "Додати canonical"
+
+#: views/admin/section/additional.php:57
+msgid "Use 'Yoast SEO' primary category to build product path"
+msgstr "Використовувати основну категорію  'Yoast SEO' для створення посилання товару"
+
+#: views/admin/section/additional.php:53
+msgid "Use primary category"
+msgstr "Використовувати основну категорію"
+
+#: views/admin/section/additional.php:38 views/admin/section/additional.php:96
+#: views/admin/section/suffix.php:52 views/admin/section/suffix.php:79
+#: views/admin/section/suffix.php:144
+msgid "Available only in premium version"
+msgstr "Доступно тільки в преміум версії"
+
+#: views/admin/section/additional.php:33
+msgid "Remove product tag base"
+msgstr "Не показувати префікс для мітки товару"
+
+#: views/admin/tabs/settings.php:10
+msgid "WooCommerce Permalink Manager offers you the ability to create a custom URL structure for your permalinks. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A number of settings are available, and here are some examples to get you started."
+msgstr "WooCommerce Permalink Manager дає можливість вказати для постійних посилань і архівів власну структуру. Це може надати вашими посиланнями естетичність, зручність використання і забезпечити сумісність в майбутньому. Можете переглянути повний список доступних налаштувань, а для початку кілька прикладів."
+
+#: views/admin/main.php:9
+msgid "WooCommerce Permalink Settings"
+msgstr "Налаштування постійних посилань WooCommerce"
+
+#: src/Admin/Settings.php:36
+msgid "Categories"
+msgstr "Категорії"
+
+#: src/Admin/Settings.php:46
+msgid "Additional"
+msgstr "Додатково"
+
+#: src/Admin/Admin.php:134 src/Admin/Admin.php:135
+msgid "Permalink Manager"
+msgstr " Посилання магазину"
+
+#: src/Admin/Admin.php:185
+msgid "Account"
+msgstr "Аккаунт"
+
+#: src/Admin/Admin.php:187
+msgid "Contact Us"
+msgstr "Зв'яжіться з нами"
+
+#: src/Admin/Admin.php:180
+msgid "Settings"
+msgstr "Налаштування"
+
+#. Author URI of the plugin
+msgid "https://premmerce.com/"
+msgstr "https://premmerce.com/"
+
+#. Author of the plugin
+msgid "premmerce"
+msgstr "premmerce"
+
+#. Plugin URI of the plugin
+msgid "https://premmerce.com/woocommerce-permalink-manager-remove-shop-product-product-category-url/"
+msgstr "https://premmerce.com/woocommerce-permalink-manager-remove-shop-product-product-category-url/"
+
+#: src/Admin/Settings.php:41
+msgid "Products"
+msgstr "Товари"
+
+#: src/UrlManagerPlugin.php:115
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для роботи плагіна %s потрібен плагін %s"

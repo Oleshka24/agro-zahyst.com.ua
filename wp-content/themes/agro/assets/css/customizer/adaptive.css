@@ -1,0 +1,65 @@
+@media (min-width: 1020px) {
+    .woocommerce .widget_price_filter .price_slider_amount .button:hover {
+        color: #fff;
+        background-color: #4f9eff;
+        border: 1px solid transparent;
+    }
+
+    .widget.woocommerce.widget_product_categories a:hover {
+        color: #4f9eff;
+    }
+
+    .widget.woocommerce.widget_product_categories ul.product-categories > li > a:hover {
+        text-decoration: underline;
+    }
+
+    .woocommerce .button.add_to_cart_button:hover .add_to_cart_ico,
+    .woocommerce .button.outofstock_button:hover .add_to_cart_ico,
+    .banner .slider .slider_item .btn:hover .button_more_ico,
+    .product_item .button_more .btn:hover .button_more_ico,
+    .single-product.woocommerce .product .cart .single_add_to_cart_button:hover .add_to_cart_ico {
+        fill: #4f9eff;
+    }
+
+    .scroll_to_top:hover .scroll_to_top__ico,
+    .scroll_to_top:hover .scroll_to_top__ico-row {
+        transform: translateY(0px);
+    }
+
+    .sidebar-product__btn:hover {
+        color: #4f9eff;
+        background-color: #ffffff;
+        border-color: #4f9eff;
+    }
+
+    .sidebar-product:hover .sidebar-product__info::before {
+        opacity: 0;
+    }    
+
+    .widget_premmerce_filter_active_filters_widget .pc-active-filter__item-link:hover .pc-active-filter__item-delete {
+        background-image: url(../../images/icons/cancel--white.svg);
+        background-color: #a00;
+    }
+
+    .woocommerce .sidebar ul.product_list_widget li a:hover,
+    .sidebar-product__link:hover,
+    .product-bundle .product-bundle__product-title a:hover {
+        color: #000;
+    }
+    
+    .woocommerce .sidebar ul.product_list_widget li a:hover img,
+    .sidebar-product:hover .preview__img {
+        transform: scale(.95);
+    }
+}
+
+@media (max-width: 1020px) {
+    .scroll_to_top {
+        right: 20px;
+        bottom: 105px;
+    }
+}
+
+.sidebar.active .close_button.mobile {
+    z-index: 10;
+}
